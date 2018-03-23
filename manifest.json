@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+
+  "name": "Cireson WebUi Helper",
+  "description": "This extension allows the user understand templates, and behavior interaction within webui.",
+  "version": "1.0",
+  "devtools_page": "DevTools.html",
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html",
+    "default_title": "Click here!"
+  },
+  "permissions": [
+    "activeTab",
+    "storage",
+    "http://*/*",
+    "https://*/*"
+  ]
+}
